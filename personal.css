@@ -393,8 +393,6 @@ li {
   position: relative;
 }
 
-#workExperience {}
-
 .work-experience {
   padding: 30px 0 0;
 }
@@ -410,7 +408,7 @@ li {
   font-weight: bold;
 }
 
-#workExperience .item-lists .item {
+#experience .item-lists .item {
   margin: 16px 0 0;
   font-size: 16px;
 }
