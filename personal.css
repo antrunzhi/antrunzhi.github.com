@@ -2,11 +2,19 @@
   margin: 0;
   padding: 0;
 }
+html {
+  min-width: 1200px;
+}
+body {
+  font-family: "Microsoft YaHei", "SimSun", Arial, Helvetica, sans-serif
+}
 
 li {
   list-style: none;
 }
-
+#header {
+  position: relative;
+}
 .header-below-inner,
 .main-inner {
   width: 1200px;
@@ -275,10 +283,12 @@ li {
 
 .main-inner-5-bots1 {
   float: left;
-  width: 299px;
+  width: 298px;
   height: 218px;
   position: relative;
   overflow: hidden;
+  box-sizing: border-box;
+    margin: 0 1px;
 }
 
 .main-inner-5-bots1:hover .works-bg {
@@ -324,7 +334,7 @@ li {
 }
 
 .main-inner-5-bots1 .plus-bg .plus {
-  background: url(http://www.onbupt.com/lijingjing/img/plus.png) 50% 50% no-repeat;
+  background: url(http://www.inqinyang.com/lijingjing/img/plus.png) 50% 50% no-repeat;
   background-size: cover;
   display: block;
   width: 100%;
@@ -348,7 +358,7 @@ li {
   font-family: Microsoft Yahe;
   line-height: 144px;
   color: #fff;
-  background: url(http://www.onbupt.com/lijingjing/img/thanks.png) 50% 50% no-repeat;
+  background: url(http://www.inqinyang.com/lijingjing/img/thanks.png) 50% 50% no-repeat;
   padding-top: 110px;
 }
 
@@ -375,6 +385,12 @@ li {
 .item-lists .item {
   margin: 20px 0 0;
   font-size: 20px;
+  position: relative;
+  padding-left: 20px;
+}
+.item-lists .item .index {
+    position: absolute;
+    left: 0;
 }
 
 #skillsSummary:before {
@@ -385,7 +401,7 @@ li {
   left: -5px;
   top: 28px;
   position: absolute;
-  background: url(http://www.onbupt.com/lijingjing/img/yinhao.png) 50% 50% no-repeat;
+  background: url(http://www.inqinyang.com/lijingjing/img/yinhao.png) 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -394,7 +410,7 @@ li {
 }
 
 .work-experience {
-  padding: 30px 0 0;
+  padding: 50px 0 0 30px;
 }
 
 .work-duration {
@@ -407,7 +423,9 @@ li {
   font-size: 26px;
   font-weight: bold;
 }
-
+#experience .main-inner-2-top{
+    margin-bottom: -20px;
+}
 #experience .item-lists .item {
   margin: 16px 0 0;
   font-size: 16px;
